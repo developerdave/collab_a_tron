@@ -23,6 +23,10 @@ end
 group :test, :development do
   gem "rspec"
   gem "rspec-rails", "~> 2.6"
+  gem 'shoulda'
+  gem 'cucumber-rails'
+  gem "capybara"
+  gem "launchy"
 end
 
 gem 'jquery-rails'
