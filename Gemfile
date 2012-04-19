@@ -24,7 +24,9 @@ group :assets do
 end
 
 group :test do
+  gem 'cucumber'
   gem 'cucumber-rails'
+  gem 'database_cleaner'
 end
 
 group :test, :development do
