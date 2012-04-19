@@ -35,6 +35,7 @@ group :test, :development do
   gem 'shoulda'
   gem "capybara"
   gem "launchy"
+  gem 'test-unit'
 end
 
 gem 'jquery-rails'
