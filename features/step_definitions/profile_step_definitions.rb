@@ -7,6 +7,7 @@ When /^I navigate to the homepage$/ do
 end
 
 Then /^I can see the profile avatar$/ do
+  save_and_open_page
   within '#profiles' do 
     page.should have_css("a[title='#{@profile.display_name}']")
     page.should have_css("a img[src='#{@profile.avatar_url}']")
