@@ -1,7 +1,7 @@
-Given /^the following profile avatars exist:$/ do |table|
+Given /^the following profiles exist:$/ do |table|
   data = table.hashes
   data.each do |row|
-    FactoryGirl.create(:profile, :avatar_url => row[:avatar_url])
+    FactoryGirl.create(:profile, :email => row[:email])
   end
 end
 

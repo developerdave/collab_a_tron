@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(:version => 20120419192307) do
   create_table "profiles", :force => true do |t|
     t.string   "firstname"
     t.string   "surname"
-    t.string   "avatar_url"
+    t.string   "email"
     t.string   "username"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false

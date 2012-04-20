@@ -1,5 +1,8 @@
 class Profile < ActiveRecord::Base
-  attr_accessible :avatar_url, :firstname, :surname, :username
+  include Gravtastic
+  gravtastic
+
+  attr_accessible :firstname, :surname, :username, :email
 
   def display_name
     %{#{firstname} #{surname} (#{username})}

@@ -80,6 +80,7 @@ GEM
     fssm (0.2.9)
     gherkin (2.9.3)
       json (>= 1.4.6)
+    gravtastic (3.2.6)
     haml (3.1.4)
     haml-rails (0.3.4)
       actionpack (~> 3.0)
@@ -203,6 +204,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   factory_girl_rails
+  gravtastic
   haml-rails
   jquery-rails
   launchy
