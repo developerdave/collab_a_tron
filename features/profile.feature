@@ -12,3 +12,10 @@ Feature: User profiles
       | simon@example.com |
     When I navigate to the homepage
     Then I can see all user profiles
+
+  Scenario: Add new profile
+    When I navigate to the homepage
+    And I add a new profile
+    And I fill in the form:
+      | firstname | surname | username | email             |
+      | Steve     | Smith   | smithy   | steve@example.com |

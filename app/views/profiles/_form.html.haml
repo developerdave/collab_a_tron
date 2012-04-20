@@ -1,0 +1,12 @@
+= simple_form_for @profile, :html => { :class => 'form-horizontal' } do |f|
+  %fieldset
+    %legend
+      = controller.action_name.capitalize
+      Profile
+    = f.input :firstname
+    = f.input :surname
+    = f.input :username
+    = f.input :email
+    .form-actions
+      = f.submit nil, :class => 'btn btn-primary'
+      = link_to 'Cancel', profiles_path, :class => 'btn'
