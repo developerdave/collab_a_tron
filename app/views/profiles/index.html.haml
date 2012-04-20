@@ -1,3 +1,4 @@
 %section#profiles
   - @profiles.each do |profile|
-    %a{:title => profile.display_name}= profile.firstname
+    %a{:title => profile.display_name}
+      %img{:src => profile.avatar_url}
