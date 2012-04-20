@@ -29,6 +29,7 @@ group :test do
 end
 
 group :test, :development do
+  gem "factory_girl_rails"
   gem "rspec"
   gem "rspec-rails", "~> 2.6"
   gem 'shoulda'
