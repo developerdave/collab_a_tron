@@ -1,4 +1,6 @@
 %section#profiles
-  - @profiles.each do |profile|
-    %a{:title => profile.display_name}
-      %img{:src => profile.avatar_url}
+  %ul
+    - @profiles.each do |profile|
+      %li
+        %a{:title => profile.display_name}
+          %img{:src => profile.avatar_url}
