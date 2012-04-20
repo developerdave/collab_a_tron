@@ -195,7 +195,6 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 3.2.1)
   compass-rails
-  cucumber
   cucumber-rails
   database_cleaner
   haml-rails
