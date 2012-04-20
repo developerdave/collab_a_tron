@@ -7,6 +7,7 @@ describe "profiles/index" do
       stub_model(Profile, :firstname => "Tom")
     ])
     render
+    
     rendered.should have_content("Dave")
   end  
 end
