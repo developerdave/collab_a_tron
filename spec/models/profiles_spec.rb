@@ -48,5 +48,9 @@ describe Profile do
       @profile.should_not be_valid
       @profile.errors_on(:username).should include "has already been taken"
     end
+
+    it "should not require me to have a website" do 
+      @profile.errors_on(:website).should be_empty
+    end
   end
 end

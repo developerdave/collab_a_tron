@@ -17,6 +17,6 @@ Feature: User profiles
     When I navigate to the homepage
     And I add a new profile
     And I fill in the form:
-      | firstname | surname | username | email             |
-      | Steve     | Smith   | smithy   | steve@example.com |
+      | firstname | surname | username | email             | website                 |
+      | Steve     | Smith   | smithy   | steve@example.com | www.developerdave.co.uk |
     Then I should see the new profile
