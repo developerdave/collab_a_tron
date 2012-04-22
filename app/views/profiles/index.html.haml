@@ -4,5 +4,5 @@
       =link_to image_tag("add_new.png"), new_profile_path, :title => "Add Profile", :id => "new_profile"
     - @profiles.each do |profile|
       %li
-        %a{:title => profile.display_name}
+        %a{:rel => "tooltip", :title => profile.display_name}
           %img{:src => profile.gravatar_url}

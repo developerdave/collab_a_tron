@@ -31,6 +31,9 @@ GEM
     addressable (2.2.7)
     arel (3.0.2)
     bootstrap-sass (2.0.2)
+    bootstrap-tooltip-rails (0.1)
+      rails (>= 3.1)
+      thor
     builder (3.0.0)
     capybara (1.1.2)
       mime-types (>= 1.16)
@@ -201,6 +204,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  bootstrap-tooltip-rails
   capybara
   coffee-rails (~> 3.2.1)
   compass-rails
