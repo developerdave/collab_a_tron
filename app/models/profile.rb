@@ -7,7 +7,7 @@ class Profile < ActiveRecord::Base
   validates :username, :presence => true, :uniqueness => true
   validates :email, :presence => true, :uniqueness => true
 
-  attr_accessible :firstname, :surname, :username, :email, :website
+  attr_accessible :firstname, :surname, :username, :email, :website, :twitter
 
   def display_name
     %{#{firstname} #{surname} (#{username})}

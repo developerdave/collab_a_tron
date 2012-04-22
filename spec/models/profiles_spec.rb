@@ -52,5 +52,9 @@ describe Profile do
     it "should not require me to have a website" do 
       @profile.errors_on(:website).should be_empty
     end
+
+    it "should not require me to enter twitter handle" do
+      @profile.errors_on(:twitter).should be_empty
+    end
   end
 end

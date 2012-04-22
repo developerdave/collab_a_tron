@@ -13,10 +13,10 @@ Feature: User profiles
     When I navigate to the homepage
     Then I can see all user profiles
 
-  Scenario: Add new profile
+  Scenario: Create profile
     When I navigate to the homepage
     And I add a new profile
     And I fill in the form:
-      | firstname | surname | username | email             | website                 |
-      | Steve     | Smith   | smithy   | steve@example.com | www.developerdave.co.uk |
+      | firstname | surname | username | email             | website                 | twitter       |
+      | Steve     | Smith   | smithy   | steve@example.com | www.developerdave.co.uk | developerdave |    
     Then I should see the new profile
