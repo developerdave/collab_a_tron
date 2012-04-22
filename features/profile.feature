@@ -20,3 +20,10 @@ Feature: User profiles
       | firstname | surname | username | email             | website                 | twitter       | github        |
       | Steve     | Smith   | smithy   | steve@example.com | www.developerdave.co.uk | developerdave | developerdave |
     Then I should see the new profile
+
+  Scenario: Display profile summary info
+    Given a profile exists with the summary info:
+      | website                 | twitter        | github        |
+      | www.developerdave.co.uk | @developerdave | developerdave |
+    When I view the profile
+    Then I should see the profile summary info

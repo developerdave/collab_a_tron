@@ -1,3 +1,11 @@
+Given /^a profile exists with the summary info:$/ do |table|
+  row = table.hashes.first
+  @profile = FactoryGirl.create(:profile, 
+    :website => row[:website],
+    :twitter => row[:twitter],
+    :github  => row[:github])
+end
+
 Given /^the following profiles exist:$/ do |table|
   data = table.hashes
   data.each do |row|
@@ -7,6 +15,10 @@ end
 
 Given /^a profile exists$/ do
   @profile = FactoryGirl.create(:profile)
+end
+
+When /^I view the profile$/ do
+  visit profile_path @profile
 end
 
 When /^I fill in the form:$/ do |table|
@@ -32,6 +44,14 @@ end
 When /^I add a new profile$/ do
   within "#profiles" do 
     click_link 'new_profile'
+  end
+end
+
+Then /^I should see the profile summary info$/ do
+  within "#profile" do
+    page.should have_content(@profile.website)
+    page.should have_content(@profile.twitter)
+    page.should have_content(@profile.github)
   end
 end
 

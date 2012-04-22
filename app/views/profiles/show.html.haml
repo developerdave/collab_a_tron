@@ -1,2 +1,13 @@
 %section#profile
+  .row
+    .span12{:class => "centered"}
+      %ul
+        %li
+          website: #{@profile.website}
+        %li
+          twitter: #{@profile.twitter}
+        %li
+          github: #{@profile.github}
+
+
   = @profile.firstname
