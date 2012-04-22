@@ -16,10 +16,10 @@ When /^I fill in the form:$/ do |table|
     fill_in "profile_surname", :with => row[:surname]
     fill_in "profile_username", :with => row[:username]
     fill_in "profile_email", :with => row[:email]
+    click_button "Create Profile"
+
+    @profile = Profile.find_by_username(row[:username])
   end
-
-  click_button "Create Profile"
-
 end
 
 When /^I navigate to the homepage$/ do
@@ -41,6 +41,12 @@ Then /^I can see all user profiles$/ do
 
   profiles.each do |profile|
     avatar_displayed?(profile)
+  end
+end
+
+Then /^I should see the new profile$/ do
+  within "#profile" do
+    page.should have_content(@profile.firstname)
   end
 end
 

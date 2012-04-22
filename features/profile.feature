@@ -19,3 +19,4 @@ Feature: User profiles
     And I fill in the form:
       | firstname | surname | username | email             |
       | Steve     | Smith   | smithy   | steve@example.com |
+    Then I should see the new profile
