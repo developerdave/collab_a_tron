@@ -56,5 +56,9 @@ describe Profile do
     it "should not require me to enter twitter handle" do
       @profile.errors_on(:twitter).should be_empty
     end
+
+    it "should not require me to enter github account" do
+      @profile.errors_on(:github).should be_empty
+    end
   end
 end

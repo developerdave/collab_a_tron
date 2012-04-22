@@ -18,6 +18,7 @@ When /^I fill in the form:$/ do |table|
     fill_in "profile_email", :with => row[:email]
     fill_in "profile_website", :with => row[:website]
     fill_in "profile_twitter", :with => row[:twitter]
+    fill_in "profile_github", :with => row[:github]
     click_button "Create Profile"
 
     @profile = Profile.find_by_username(row[:username])
