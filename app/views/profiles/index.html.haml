@@ -1,8 +1,9 @@
-%section#profiles
-  %ul
-    %li
-      =link_to image_tag("add_new.png"), new_profile_path, :title => "Add Profile", :id => "new_profile", :rel => "tooltip", :title => "Add User"
-    - @profiles.each do |profile|
+.row-fluid
+  %section#profiles
+    %ul
       %li
-        %a{:rel => "tooltip", :title => profile.display_name}
-          %img{:src => profile.gravatar_url}
+        =link_to image_tag("add_new.png"), new_profile_path, :title => "Add Profile", :id => "new_profile", :rel => "tooltip", :title => "Add User"
+      - @profiles.each do |profile|
+        %li
+          %a{:rel => "tooltip", :title => profile.display_name}
+            %img{:src => profile.gravatar_url}

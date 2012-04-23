@@ -44,6 +44,30 @@
 	},
 	"file_history":
 	[
+		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/show.html.haml",
+		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/profiles.css.sass",
+		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/new.html.haml",
+		"/Users/Dave/Rails/collab_a_tron/features/profile.feature",
+		"/Users/Dave/Rails/collab_a_tron/features/step_definitions/profile_step_definitions.rb",
+		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/_form.html.haml",
+		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/index.html.haml",
+		"/Users/Dave/Rails/collab_a_tron/db/migrate/20120422185746_add_twitter_to_profile.rb",
+		"/Users/Dave/Rails/collab_a_tron/spec/models/profiles_spec.rb",
+		"/Users/Dave/Rails/collab_a_tron/app/models/profile.rb",
+		"/Users/Dave/Rails/collab_a_tron/db/migrate/20120419192307_create_profiles.rb",
+		"/Users/Dave/Rails/collab_a_tron/db/seeds.rb",
+		"/Users/Dave/Rails/collab_a_tron/app/assets/javascripts/application.js",
+		"/Users/Dave/Rails/collab_a_tron/app/assets/javascripts/profiles.js.coffee",
+		"/Users/Dave/Rails/collab_a_tron/Gemfile",
+		"/Users/Dave/Rails/collab_a_tron/spec/factories/profiles.rb",
+		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/form.css.sass",
+		"/Users/Dave/Rails/collab_a_tron/app/views/layouts/application.html.haml",
+		"/Users/Dave/Rails/spottybook_v1/app/views/layouts/application.html.haml",
+		"/Users/Dave/Rails/spottybook_v1/spec/factories/categories.rb",
+		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/bootstrap_and_overrides.css.sass",
+		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/application.css.sass",
+		"/Users/Dave/Rails/collab_a_tron/features/support/env.rb",
+		"/Users/Dave/Rails/collab_a_tron/config/cucumber.yml",
 		"/Users/Dave/Rails/spottybook_v1/app/views/news_items/show.html.haml",
 		"/Users/Dave/Rails/spottybook_v1/app/controllers/news_items_controller.rb",
 		"/Users/Dave/Rails/spottybook_v1/app/views/deals/show.html.haml",
@@ -60,32 +84,16 @@
 		"/Users/Dave/Rails/spottybook_v1/app/assets/stylesheets/home.css.sass",
 		"/Users/Dave/Rails/spottybook_v1/app/assets/stylesheets/form.css.sass",
 		"/Users/Dave/Rails/spottybook_v1/app/assets/stylesheets/application.css.sass",
-		"/Users/Dave/Rails/collab_a_tron/features/profile.feature",
-		"/Users/Dave/Rails/collab_a_tron/features/step_definitions/profile_step_definitions.rb",
-		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/index.html.haml",
 		"/Users/Dave/Rails/collab_a_tron/config/routes.rb",
 		"/Users/Dave/Rails/collab_a_tron/app/controllers/profiles_controller.rb",
-		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/_form.html.haml",
-		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/show.html.haml",
-		"/Users/Dave/Rails/collab_a_tron/Gemfile",
-		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/new.html.haml",
 		"/Users/Dave/Rails/collab_a_tron/db/development.sqlite3",
-		"/Users/Dave/Rails/collab_a_tron/db/seeds.rb",
 		"/Users/Dave/Rails/collab_a_tron/app/views/layouts/application.html.erb",
-		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/profiles.css.sass",
-		"/Users/Dave/Rails/collab_a_tron/spec/factories/profiles.rb",
-		"/Users/Dave/Rails/collab_a_tron/db/migrate/20120419192307_create_profiles.rb",
-		"/Users/Dave/Rails/collab_a_tron/spec/models/profiles_spec.rb",
-		"/Users/Dave/Rails/collab_a_tron/app/models/profile.rb",
 		"/Users/Dave/Rails/collab_a_tron/features/support/profile_helper.rb",
 		"/Users/Dave/Rails/collab_a_tron/spec/views/profile_index_spec.rb",
 		"/Users/Dave/Rails/spottybook_v1/app/views/layouts/application.html.erb",
-		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/bootstrap_and_overrides.css.sass",
-		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/application.css.sass",
 		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
 		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/profiles.css.scss",
 		"/Users/Dave/Rails/collab_a_tron/app/helpers/profiles_helper.rb",
-		"/Users/Dave/Rails/collab_a_tron/features/support/env.rb",
 		"/Users/Dave/Rails/collab_a_tron/.travis.yml",
 		"/Users/Dave/Rails/spottybook_v1/spec/controllers/deals_controller_spec.rb",
 		"/Users/Dave/Rails/spottybook_v1/spec/factories/deals.rb",
@@ -163,15 +171,7 @@
 		"/Users/Dave/Sites/wordpress.dev/office.drinks/wp-content/themes/officedrinks/functions.php",
 		"/Users/Dave/Sites/wordpress.dev/office.drinks/wp-content/themes/officedrinks/template-page-business-index.php",
 		"/Users/Dave/Sites/wordpress.dev/office.drinks/features/step_definitions/business_directory_admin_steps.rb",
-		"/Users/Dave/Sites/wordpress.dev/office.drinks/wp-content/themes/officedrinks/template-page-hosts.php",
-		"/Users/Dave/Sites/wordpress.dev/office.drinks/wp-content/plugins/gw-posts-business-directory/business_directory.php",
-		"/Users/Dave/Sites/wordpress.dev/office.drinks/Rakefile",
-		"/Users/Dave/Rails/spottybook_v1/spec/support/matchers/include_hash.rb",
-		"/Users/Dave/Rails/spottybook_v1/spec/spec_helper.rb",
-		"/Users/Dave/Rails/spottybook_v1/spec/factories/categories.rb",
-		"/Users/Dave/Rails/spottybook_v1/app/models/news_item.rb",
-		"/Users/Dave/Rails/spottybook_v1/spec/factories/news_item.rb",
-		"/Users/Dave/Rails/spottybook_v1/lib/sample_records.rb"
+		"/Users/Dave/Sites/wordpress.dev/office.drinks/wp-content/themes/officedrinks/template-page-hosts.php"
 	],
 	"find":
 	{
@@ -190,6 +190,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"4",
+			"3",
 			" ",
 			"new.html.haml",
 			"profiles.rb",
@@ -265,6 +267,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"5",
+			"4",
 			"s",
 			".replace-text",
 			"@side_nav_image"
@@ -277,6 +281,11 @@
 	},
 	"groups":
 	[
+		{
+			"sheets":
+			[
+			]
+		},
 		{
 			"sheets":
 			[
@@ -300,11 +309,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -325,8 +341,44 @@
 		"selected_items":
 		[
 			[
+				"profile",
+				"app/assets/stylesheets/profiles.css.sass"
+			],
+			[
+				"profile.",
+				"app/models/profile.rb"
+			],
+			[
+				"see",
+				"db/seeds.rb"
+			],
+			[
+				"applica",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"index",
+				"app/views/profiles/index.html.haml"
+			],
+			[
 				"show",
-				"app/views/deals/show.html.haml"
+				"app/views/profiles/show.html.haml"
+			],
+			[
+				"profile.feature",
+				"features/profile.feature"
+			],
+			[
+				"cucumb",
+				"config/cucumber.yml"
+			],
+			[
+				"env.rb",
+				"features/support/env.rb"
 			],
 			[
 				"deal.css",
@@ -339,14 +391,6 @@
 			[
 				"inde",
 				"app/views/news_items/index.html.haml"
-			],
-			[
-				"index",
-				"app/views/deals/index.html.haml"
-			],
-			[
-				"gemfile",
-				"Gemfile"
 			],
 			[
 				"routes",
@@ -367,10 +411,6 @@
 			[
 				"profile_hel",
 				"app/helpers/profiles_helper.rb"
-			],
-			[
-				"profile",
-				"spec/factories/profiles.rb"
 			],
 			[
 				"profile_ste",
@@ -419,10 +459,6 @@
 			[
 				"api.rb",
 				"lib/aruba/api.rb"
-			],
-			[
-				"cucumb",
-				"lib/aruba/cucumber.rb"
 			],
 			[
 				"aruba_de",
