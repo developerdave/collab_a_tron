@@ -42,13 +42,13 @@ When /^I navigate to the homepage$/ do
 end
 
 When /^I add a new profile$/ do
-  within "#profiles" do 
+  within ".profile-wall" do 
     click_link 'new_profile'
   end
 end
 
 Then /^I should see the profile summary info$/ do
-  within "#profile" do
+  within ".profile" do
     page.should have_content(@profile.website)
     page.should have_content(@profile.twitter)
     page.should have_content(@profile.github)
@@ -68,8 +68,18 @@ Then /^I can see all user profiles$/ do
 end
 
 Then /^I should see the new profile$/ do
-  within "#profile" do
-    page.should have_content(@profile.firstname)
-  end
+  page.should have_content(@profile.firstname)
+end
+
+Then /^I should not see website within the profile summary info$/ do
+  page.should_not have_content("website:")
+end
+
+Then /^I should not see twitter within the profile summary info$/ do
+  page.should_not have_content("twitter:")
+end
+
+Then /^I should not see github within the profile summary info$/ do
+  page.should_not have_content("github:")
 end
 

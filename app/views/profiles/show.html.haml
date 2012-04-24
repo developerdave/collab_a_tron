@@ -1,15 +1,18 @@
 .row-fluid
   %section.profile
     %ul.summary-info{:class => "clearfix"}
-      %li.summary-info-item
-        %strong website: 
-        = link_to @profile.website, "http://#{@profile.website}"
-      %li.summary-info-item
-        %strong twitter: 
-        = link_to @profile.twitter, "http://twitter.com/#{@profile.twitter}"
-      %li.summary-info-item
-        %strong github: 
-        = link_to @profile.github, "http://github.com/#{@profile.github}"
+      - if @profile.website.present?
+        %li.summary-info-item
+          %strong website: 
+          = link_to @profile.website, "http://#{@profile.website}"
+      - if @profile.twitter.present?
+        %li.summary-info-item
+          %strong twitter: 
+          = link_to @profile.twitter, "http://twitter.com/#{@profile.twitter}"
+      - if @profile.github.present?
+        %li.summary-info-item
+          %strong github: 
+          = link_to @profile.github, "http://github.com/#{@profile.github}"
 
 .row-fluid
   = @profile.firstname

@@ -27,3 +27,24 @@ Feature: User profiles
       | www.developerdave.co.uk | @developerdave | developerdave |
     When I view the profile
     Then I should see the profile summary info
+
+  Scenario: Does not display website in summary info
+    Given a profile exists with the summary info:
+      | website | twitter        | github        |
+      |         | @developerdave | developerdave |
+    When I view the profile
+    Then I should not see website within the profile summary info
+
+  Scenario: Does not display twitter in summary info
+    Given a profile exists with the summary info:
+      | website                 | twitter | github        |
+      | www.developerdave.co.uk |         | developerdave |
+    When I view the profile
+    Then I should not see twitter within the profile summary info
+
+  Scenario: Does not display github in summary info
+    Given a profile exists with the summary info:
+      | website                 | twitter        | github |
+      | www.developerdave.co.uk | @developerdave |        |
+    When I view the profile
+    Then I should not see github within the profile summary info

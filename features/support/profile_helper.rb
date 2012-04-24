@@ -1,6 +1,6 @@
 module ProfileHelper
   def avatar_displayed?(profile)
-    within '#profiles ul' do 
+    within '.profile-wall .profile-items' do 
       page.should have_css("li a[title='#{profile.display_name}']")
       page.should have_css("li a img[src='#{profile.gravatar_url}']")
     end
