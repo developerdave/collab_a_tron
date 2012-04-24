@@ -29,6 +29,7 @@ When /^I fill in the form:$/ do |table|
     fill_in "profile_surname", :with => row[:surname]
     fill_in "profile_username", :with => row[:username]
     fill_in "profile_email", :with => row[:email]
+    fill_in "profile_job_role", :with => row[:role]
     fill_in "profile_website", :with => row[:website]
     fill_in "profile_twitter", :with => row[:twitter]
     fill_in "profile_github", :with => row[:github]
@@ -50,9 +51,9 @@ end
 
 Then /^I should see the profile summary info$/ do
   within ".profile" do
-    page.should have_content(@profile.website)
-    page.should have_content(@profile.twitter)
-    page.should have_content(@profile.github)
+    page.should have_css("li.website")
+    page.should have_css("li.twitter")
+    page.should have_css("li.github")
   end
 end
 
@@ -69,20 +70,20 @@ Then /^I can see all user profiles$/ do
 end
 
 Then /^I should see the new profile$/ do
-  page.should have_content(@profile.firstname)
+  page.should have_content("#{@profile.firstname} #{@profile.surname}")
   page.should have_content(@profile.job_role)
   page.should have_css(".profile-avatar")
 end
 
 Then /^I should not see website within the profile summary info$/ do
-  page.should_not have_content("website:")
+  page.should_not have_css("li.website")
 end
 
 Then /^I should not see twitter within the profile summary info$/ do
-  page.should_not have_content("twitter:")
+  page.should_not have_css("li.twitter")
 end
 
 Then /^I should not see github within the profile summary info$/ do
-  page.should_not have_content("github:")
+  page.should_not have_css("li.github")
 end
 

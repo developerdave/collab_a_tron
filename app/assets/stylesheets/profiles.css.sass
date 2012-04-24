@@ -28,10 +28,33 @@ section.profile
       margin: 0 20px 20px
     .profile-name
       color: #fff
-  .summary-info
-    width: 50%
-    list-style: none
-    margin: 0 auto
+    .job-role
+      font-size: 13px
+  .social-icons
+    padding: 0
+    margin-top: 10px
+    float: right
+    li
+      float: left
+      list-style-type: none
+      a
+        @include replace-text('social_icons.png')
+        display: block
+        width: 40px
+        height: 40px
+        margin: 2px
+    li.website a    
+      background-position: -172px 0px
+      &:hover
+        background-position: -172px -40px
+    li.github a
+      background-position: 0px 0px
+      &:hover
+        background-position: 0px -40px
+    li.twitter a
+      background-position: -43px 0
+      &:hover
+        background-position: -43px -40px
     .summary-info-item
       float: left
       display: inline
@@ -49,6 +72,6 @@ body.font-page
     padding: 0
 
 body
-  background: url('site-stripe.png')
+  background: url('site_stripe.png')
   
 

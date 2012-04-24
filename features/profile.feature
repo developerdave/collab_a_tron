@@ -18,7 +18,7 @@ Feature: User profiles
     And I add a new profile
     And I fill in the form:
       | firstname | surname | username | email             | role      | website                 | twitter       | github        |
-      | Steve     | Smith   | smithy   | steve@example.com | developer | www.developerdave.co.uk | developerdave | developerdave |
+      | Steve     | Smith   | smithy   | steve@example.com | Developer | www.developerdave.co.uk | developerdave | developerdave |
     Then I should see the new profile
 
   Scenario: Display profile summary info

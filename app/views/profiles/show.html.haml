@@ -4,17 +4,17 @@
       %img.profile-avatar{:src => @profile.gravatar_url}
       %span.profile-name
         %h2
-          = @profile.firstname
-    %ul.summary-info{:class => "clearfix"}
-      - if @profile.website.present?
-        %li.summary-info-item
-          %strong website: 
-          = link_to @profile.website, "http://#{@profile.website}"
-      - if @profile.twitter.present?
-        %li.summary-info-item
-          %strong twitter: 
-          = link_to @profile.twitter, "http://twitter.com/#{@profile.twitter}"
+          = "#{@profile.firstname} #{@profile.surname}"
+        %span.job-role
+          = @profile.job_role
+    %ul.social-icons
       - if @profile.github.present?
-        %li.summary-info-item
-          %strong github: 
-          = link_to @profile.github, "http://github.com/#{@profile.github}"
+        %li.github
+          = link_to "github", "http://github.com/#{@profile.github}"
+      - if @profile.website.present?
+        %li.website
+          = link_to "website", "http://#{@profile.website}"
+      - if @profile.twitter.present?
+        %li.twitter
+          = link_to "twitter", "http://twitter.com/#{@profile.twitter}"
+    
