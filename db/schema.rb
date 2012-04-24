@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120422190531) do
+ActiveRecord::Schema.define(:version => 20120424123018) do
 
   create_table "profiles", :force => true do |t|
     t.string   "firstname"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(:version => 20120422190531) do
     t.datetime "updated_at", :null => false
     t.string   "twitter"
     t.string   "github"
+    t.string   "job_role"
   end
 
 end

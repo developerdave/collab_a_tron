@@ -1,9 +1,10 @@
 Given /^a profile exists with the summary info:$/ do |table|
   row = table.hashes.first
   @profile = FactoryGirl.create(:profile, 
-    :website => row[:website],
-    :twitter => row[:twitter],
-    :github  => row[:github])
+    :job_role => row[:job_role],
+    :website  => row[:website],
+    :twitter  => row[:twitter],
+    :github   => row[:github])
 end
 
 Given /^the following profiles exist:$/ do |table|
@@ -69,6 +70,7 @@ end
 
 Then /^I should see the new profile$/ do
   page.should have_content(@profile.firstname)
+  page.should have_content(@profile.job_role)
   page.should have_css(".profile-avatar")
 end
 
