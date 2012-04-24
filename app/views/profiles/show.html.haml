@@ -1,5 +1,10 @@
 .row-fluid
   %section.profile
+    %header.profile-header
+      %img.profile-avatar{:src => @profile.gravatar_url}
+      %span.profile-name
+        %h2
+          = @profile.firstname
     %ul.summary-info{:class => "clearfix"}
       - if @profile.website.present?
         %li.summary-info-item
@@ -13,6 +18,3 @@
         %li.summary-info-item
           %strong github: 
           = link_to @profile.github, "http://github.com/#{@profile.github}"
-
-.row-fluid
-  = @profile.firstname

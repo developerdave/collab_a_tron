@@ -5,6 +5,6 @@
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
-  %body{:class => "#{controller.controller_name}"}
+  %body{:class => "#{controller.controller_name} #{yield(:body_classes)}"}
     .container-fluid
       = yield

@@ -69,6 +69,7 @@ end
 
 Then /^I should see the new profile$/ do
   page.should have_content(@profile.firstname)
+  page.should have_css(".profile-avatar")
 end
 
 Then /^I should not see website within the profile summary info$/ do
