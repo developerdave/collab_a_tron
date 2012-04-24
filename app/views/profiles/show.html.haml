@@ -1,16 +1,15 @@
 .row-fluid
   %section.profile
-    .row-fluid
-      .span12
-        %ul.summary-info
-          %li.summary-info-item
-            %strong website: 
-            = link_to @profile.website, "http://#{@profile.website}"
-          %li.summary-info-item
-            %strong twitter: 
-            = link_to @profile.twitter, "http://twitter.com/#{@profile.twitter}"
-          %li.summary-info-item
-            %strong github: 
-            = link_to @profile.github, "http://github.com/#{@profile.github}"
+    %ul.summary-info{:class => "clearfix"}
+      %li.summary-info-item
+        %strong website: 
+        = link_to @profile.website, "http://#{@profile.website}"
+      %li.summary-info-item
+        %strong twitter: 
+        = link_to @profile.twitter, "http://twitter.com/#{@profile.twitter}"
+      %li.summary-info-item
+        %strong github: 
+        = link_to @profile.github, "http://github.com/#{@profile.github}"
 
+.row-fluid
   = @profile.firstname
