@@ -24,4 +24,4 @@ bundle exec rake db:migrate
 
 Contributing
 ------------
-A guide on how to contribute to the collab_a_tron project is being produced and will be available soon.
+A guide on how to contribute to the collab_a_tron project can be found [here](https://github.com/developerdave/collab_a_tron/blob/master/contribution_guidelines.md)
