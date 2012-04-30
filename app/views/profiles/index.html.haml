@@ -8,5 +8,4 @@
         =link_to image_tag("add_new.png"), new_profile_path, :title => "Add Profile", :id => "new_profile", :rel => "tooltip", :title => "Add User"
       - @profiles.each do |profile|
         %li.profile-item
-          %a{:rel => "tooltip", :title => profile.display_name}
-            %img{:src => profile.gravatar_url}
+          =link_to image_tag(profile.gravatar_url), profile_path(profile), :rel => "tooltip", :title => profile.display_name

@@ -1,9 +1,14 @@
 Feature: User profiles
 
   Scenario: Display user profile
+    Given a profile exists with the summary info:
+      | website | twitter        | github |
+      |         | @developerdave |        | 
     Given a profile exists
     When I navigate to the homepage
     Then I can see the profile avatar
+    When I select an avatar
+    Then I should see the profile page
 
   Scenario: Display multiple user profiles
     Given the following profiles exist:

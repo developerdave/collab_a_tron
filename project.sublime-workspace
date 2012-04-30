@@ -15,6 +15,70 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "spec/models/profiles_spec.rb",
+			"settings":
+			{
+				"buffer_size": 1971,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "features/profile.feature",
+			"settings":
+			{
+				"buffer_size": 2054,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "features/step_definitions/profile_step_definitions.rb",
+			"settings":
+			{
+				"buffer_size": 2304,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/profiles/show.html.haml",
+			"settings":
+			{
+				"buffer_size": 655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/profile.rb",
+			"settings":
+			{
+				"buffer_size": 447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/profiles/index.html.haml",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/profiles.css.sass",
+			"settings":
+			{
+				"buffer_size": 1604,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/bootstrap_and_overrides.css.sass",
+			"settings":
+			{
+				"buffer_size": 691,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
@@ -44,13 +108,20 @@
 	},
 	"file_history":
 	[
+		"/Users/Dave/Rails/collab_a_tron/spec/factories/profiles.rb",
+		"/Users/Dave/Rails/collab_a_tron/features/support/profile_helper.rb",
+		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/_form.html.haml",
+		"/Users/Dave/Rails/collab_a_tron/features/step_definitions/profile_step_definitions.rb",
+		"/Users/Dave/Rails/collab_a_tron/app/views/layouts/application.html.haml",
+		"/Users/Dave/Rails/spottybook_v1/app/views/news_items/index.html.haml",
+		"/Users/Dave/Rails/spottybook_v1/app/views/layouts/application.html.haml",
 		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/show.html.haml",
+		"/Users/Dave/Rails/spottybook_v1/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
+		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/bootstrap_and_overrides.css.sass",
 		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/profiles.css.sass",
+		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/index.html.haml",
 		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/new.html.haml",
 		"/Users/Dave/Rails/collab_a_tron/features/profile.feature",
-		"/Users/Dave/Rails/collab_a_tron/features/step_definitions/profile_step_definitions.rb",
-		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/_form.html.haml",
-		"/Users/Dave/Rails/collab_a_tron/app/views/profiles/index.html.haml",
 		"/Users/Dave/Rails/collab_a_tron/db/migrate/20120422185746_add_twitter_to_profile.rb",
 		"/Users/Dave/Rails/collab_a_tron/spec/models/profiles_spec.rb",
 		"/Users/Dave/Rails/collab_a_tron/app/models/profile.rb",
@@ -59,12 +130,8 @@
 		"/Users/Dave/Rails/collab_a_tron/app/assets/javascripts/application.js",
 		"/Users/Dave/Rails/collab_a_tron/app/assets/javascripts/profiles.js.coffee",
 		"/Users/Dave/Rails/collab_a_tron/Gemfile",
-		"/Users/Dave/Rails/collab_a_tron/spec/factories/profiles.rb",
 		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/form.css.sass",
-		"/Users/Dave/Rails/collab_a_tron/app/views/layouts/application.html.haml",
-		"/Users/Dave/Rails/spottybook_v1/app/views/layouts/application.html.haml",
 		"/Users/Dave/Rails/spottybook_v1/spec/factories/categories.rb",
-		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/bootstrap_and_overrides.css.sass",
 		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/application.css.sass",
 		"/Users/Dave/Rails/collab_a_tron/features/support/env.rb",
 		"/Users/Dave/Rails/collab_a_tron/config/cucumber.yml",
@@ -88,7 +155,6 @@
 		"/Users/Dave/Rails/collab_a_tron/app/controllers/profiles_controller.rb",
 		"/Users/Dave/Rails/collab_a_tron/db/development.sqlite3",
 		"/Users/Dave/Rails/collab_a_tron/app/views/layouts/application.html.erb",
-		"/Users/Dave/Rails/collab_a_tron/features/support/profile_helper.rb",
 		"/Users/Dave/Rails/collab_a_tron/spec/views/profile_index_spec.rb",
 		"/Users/Dave/Rails/spottybook_v1/app/views/layouts/application.html.erb",
 		"/Users/Dave/Rails/collab_a_tron/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
@@ -104,7 +170,6 @@
 		"/Users/Dave/Rails/collab_a_tron/spec/spec_helper.rb",
 		"/Users/Dave/Rails/spottybook_v1/app/views/deals/index.html.erb",
 		"/Users/Dave/Rails/spottybook_v1/app/views/news_items/index.html.erb",
-		"/Users/Dave/Rails/spottybook_v1/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
 		"/Users/Dave/Rails/spottybook_v1/db/migrate/20120221210228_create_news_items.rb",
 		"/Users/Dave/Rails/spottybook_v1/config/routes.rb",
 		"/Users/Dave/Rails/spottybook_v1/app/views/deals/edit.html.erb",
@@ -170,8 +235,7 @@
 		"/Users/Dave/Sites/wordpress.dev/office.drinks/features/business_directory.feature",
 		"/Users/Dave/Sites/wordpress.dev/office.drinks/wp-content/themes/officedrinks/functions.php",
 		"/Users/Dave/Sites/wordpress.dev/office.drinks/wp-content/themes/officedrinks/template-page-business-index.php",
-		"/Users/Dave/Sites/wordpress.dev/office.drinks/features/step_definitions/business_directory_admin_steps.rb",
-		"/Users/Dave/Sites/wordpress.dev/office.drinks/wp-content/themes/officedrinks/template-page-hosts.php"
+		"/Users/Dave/Sites/wordpress.dev/office.drinks/features/step_definitions/business_directory_admin_steps.rb"
 	],
 	"find":
 	{
@@ -190,6 +254,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"summary",
 			"4",
 			"3",
 			" ",
@@ -282,13 +347,238 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "spec/models/profiles_spec.rb",
+					"settings":
+					{
+						"buffer_size": 1971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								382,
+								382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 18.0,
+						"translation.y": 804.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "features/profile.feature",
+					"settings":
+					{
+						"buffer_size": 2054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Cucumber/Cucumber Plain Text Feature.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 503.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "features/step_definitions/profile_step_definitions.rb",
+					"settings":
+					{
+						"buffer_size": 2304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1526,
+								1526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 44.123046875,
+						"translation.y": 929.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/profiles/show.html.haml",
+					"settings":
+					{
+						"buffer_size": 655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								650,
+								650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 4,
+					"file": "app/models/profile.rb",
+					"settings":
+					{
+						"buffer_size": 447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								343,
+								343
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/profiles/index.html.haml",
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/assets/stylesheets/profiles.css.sass",
+					"settings":
+					{
+						"buffer_size": 1604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								693,
+								693
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/assets/stylesheets/bootstrap_and_overrides.css.sass",
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 131.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -320,7 +610,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.548266601562,
 			1.0
 		],
 		"rows":
@@ -341,8 +631,52 @@
 		"selected_items":
 		[
 			[
+				"form",
+				"app/views/profiles/_form.html.haml"
+			],
+			[
+				"profile_s",
+				"features/step_definitions/profile_step_definitions.rb"
+			],
+			[
+				"applic",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"bootst",
+				"app/assets/stylesheets/bootstrap_and_overrides.css.sass"
+			],
+			[
+				"index",
+				"app/views/profiles/index.html.haml"
+			],
+			[
+				"profile_st",
+				"features/step_definitions/profile_step_definitions.rb"
+			],
+			[
+				"profile.fe",
+				"features/profile.feature"
+			],
+			[
+				"show",
+				"app/views/profiles/show.html.haml"
+			],
+			[
 				"profile",
+				"app/models/profile.rb"
+			],
+			[
+				"profile_spec",
+				"spec/models/profiles_spec.rb"
+			],
+			[
+				"profile.css",
 				"app/assets/stylesheets/profiles.css.sass"
+			],
+			[
+				"ind",
+				"app/views/profiles/index.html.haml"
 			],
 			[
 				"profile.",
@@ -359,14 +693,6 @@
 			[
 				"gemfile",
 				"Gemfile"
-			],
-			[
-				"index",
-				"app/views/profiles/index.html.haml"
-			],
-			[
-				"show",
-				"app/views/profiles/show.html.haml"
 			],
 			[
 				"profile.feature",
@@ -403,10 +729,6 @@
 			[
 				"profil",
 				"spec/factories/profiles.rb"
-			],
-			[
-				"profile_st",
-				"features/step_definitions/profile_step_definitions.rb"
 			],
 			[
 				"profile_hel",
@@ -530,10 +852,6 @@
 			],
 			[
 				"application_con",
-				"app/controllers/application_controller.rb"
-			],
-			[
-				"applic",
 				"app/controllers/application_controller.rb"
 			],
 			[
@@ -749,10 +1067,6 @@
 				"app/assets/javascripts/spottybook_v1.js.coffee"
 			],
 			[
-				"ind",
-				"app/assets/templates/entries/index.jst.eco"
-			],
-			[
 				"entries_ind",
 				"app/assets/javascripts/views/entries/entries_index.js.coffee"
 			],
@@ -800,5 +1114,5 @@
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 333.0,
-	"status_bar_visible": false
+	"status_bar_visible": true
 }

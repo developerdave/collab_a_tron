@@ -18,6 +18,12 @@ Given /^a profile exists$/ do
   @profile = FactoryGirl.create(:profile)
 end
 
+When /^I select an avatar$/ do
+  within ".profile-item" do
+    page.find(:css, 'a').click
+  end
+end
+
 When /^I view the profile$/ do
   visit profile_path @profile
 end
@@ -85,5 +91,9 @@ end
 
 Then /^I should not see github within the profile summary info$/ do
   page.should_not have_css("li.github")
+end
+
+Then /^I should see the profile page$/ do
+  page.should have_css("section.profile")
 end
 
