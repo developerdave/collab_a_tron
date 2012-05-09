@@ -1,5 +1,6 @@
 class Profile < ActiveRecord::Base
   include Gravtastic
+  authenticates_with_sorcery!
   gravtastic
 
   validates :firstname, :presence => true

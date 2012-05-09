@@ -3,11 +3,14 @@
     %legend
       = controller.action_name.capitalize
       Profile
+    = f.input :username
+    = f.input :email
+  %fieldset
+    %legend
+      User Information
     = f.input :firstname
     = f.input :surname
     = f.input :job_role
-    = f.input :username
-    = f.input :email
     = f.input :website
     = f.input :twitter
     = f.input :github

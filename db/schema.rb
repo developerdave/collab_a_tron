@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120424123018) do
+ActiveRecord::Schema.define(:version => 20120509125523) do
 
   create_table "profiles", :force => true do |t|
     t.string   "firstname"
@@ -19,11 +19,21 @@ ActiveRecord::Schema.define(:version => 20120424123018) do
     t.string   "email"
     t.string   "username"
     t.string   "website"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
     t.string   "twitter"
     t.string   "github"
     t.string   "job_role"
+    t.string   "crypted_password"
+    t.string   "salt"
+    t.string   "remember_me_token"
+    t.datetime "remember_me_token_expires_at"
+    t.string   "reset_password_token"
+    t.datetime "reset_password_token_expires_at"
+    t.datetime "reset_password_email_sent_at"
   end
+
+  add_index "profiles", ["remember_me_token"], :name => "index_profiles_on_remember_me_token"
+  add_index "profiles", ["reset_password_token"], :name => "index_profiles_on_reset_password_token"
 
 end

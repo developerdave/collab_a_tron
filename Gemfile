@@ -43,6 +43,7 @@ gem 'haml-rails'
 gem 'gravtastic'
 gem 'simple_form'
 gem 'bootstrap-tooltip-rails'
+gem 'sorcery'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
